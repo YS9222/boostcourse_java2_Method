@@ -24,10 +24,10 @@ public class StaticMethod {
 	public static void main(String[] args) {
 		//print.a("-"); 
 		//print.b("@"); //delimeter가 class의 소속으로 실행
-		//다양하고 많은 인자값을 집어넣어야하는 상황이라면 instance를 쓰게 될 것
+		// 코드양이 많아지고 다양한 인자값을 집어넣어야하는 상황이라면 한번 복사하여 지정하면 끝나는 instance를 쓰게 될 것
 		
 		print t1 = new print();
-		t1.delimeter = "-"; //t1이라는 인스턴스 내부에서의 delimeter는 "-"로 공유됨(입력값을 instance에서 제어)
+		t1.delimeter = "-"; //t1이라는 인스턴스 내부에서의 delimeter는 "-"로 공유됨(입력값을 instance에서 제)
 		t1.a(); //a라는 method가 instance소속일때는 원클래스에서 static을 제외해야 
 	 //이제	
      //print.a("-") //일 경우 실행이 안됨 (static이 없어진 a라는 method가 class가 아니라 instance 소속이기때문)
