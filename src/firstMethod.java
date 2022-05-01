@@ -44,7 +44,7 @@ public class firstMethod {
 		
 		
 		System.out.println(a()); //method a 의 반환값인 a를 출력함 
-		System.out.println(one());
+		System.out.println(one());//
 		
 		
 	}
